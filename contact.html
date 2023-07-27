@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="/img/Logo.png" type="image/x-icon">
+    <style>
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        a:hover{
+            color: brown;
+            background-color: aliceblue;
+            padding: 10px;
+        }
+
+        .alinhament{
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        h1{
+            font-family:'Courier New', Courier, monospace;
+            font-size: 24px;
+        }
+
+        h2{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+        }
+
+        .rodape{
+            height: 125px;
+        }
+
+    </style>
+</head>
+<body style="background-color: black; color: antiquewhite;">
+    <table  width="80%" align="center">
+        <tr>
+            <td>
+                <img src="/img/Logo.png" alt="Logo com fundo preto" width="200" height="200">
+            </td>
+            <td align="right">
+                <a href="index.html">HOME</a> |
+                <a href="about_us.html">ABOUT US</a> |
+                <a href="lawyers.html">LAWYERS</a> |
+                <a href="#">CONTACT</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <img src="/img/banner-contact.png" class="alinhament">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <h1>Entre em contato conosco</h1>
+                <form action="">
+                    <label for="Email">Email: </label>
+                    <input type="email" name="Email" id="Email"> <br><br>
+                    <label for="Tel">Telefone: </label>
+                    <input type="tel" name="Tel" id="Tel"> <br><br>
+                    <label for="Info">Informarções</label><br><br>
+                    <textarea name="area" id="area" cols="30" rows="10"></textarea>
+
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center" class="rodape">
+                TODOS OS DIREITOS RESERVADOS &reg;
+            </td>
+        </tr>
+    </table>
+</html>
